@@ -1,6 +1,7 @@
-import React, { Component } from 'react';
-import { Toolbar } from '@material-ui/core';
-import logo from './logoGrazi.svg';
+// import React, { Component } from '../node_modules/react';
+import React, { Component } from '../../node_modules/react';
+import { Toolbar } from '../../node_modules/@material-ui/core';
+import logo from '../image/logoGrazi.svg';
 
 
 import './Header.css';
