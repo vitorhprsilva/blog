@@ -1,7 +1,8 @@
 // import React, { Component } from '../node_modules/react';
-import React, { Component } from '../../node_modules/react';
-import { Toolbar } from '../../node_modules/@material-ui/core';
-import logo from '../image/logoGrazi.svg';
+import React, { Component } from 'react';
+import { Toolbar } from '@material-ui/core';
+import logo from '../../image/logoGrazi.svg';
+import {Link } from 'react-router-dom';
 
 
 import './Header.css';
@@ -27,10 +28,10 @@ class Header extends Component{
           </a>
         </header>
         <Toolbar component="nav" className="menuHeader" >
-          <button id="buttonMenu" >Inicio</button>
-          <button id="buttonMenu" >Sobre</button>
-          <button id="buttonMenu" >Fotos</button>
-          <button id="buttonMenu" >Contato</button>
+          <Link to='/'><button id="buttonMenu">Inicio</button></Link>
+          <Link to='/sobre'><button id="buttonMenu">Sobre</button></Link>
+          <Link to='/fotos'><button id="buttonMenu">Fotos</button></Link>
+          <Link to='/contato'><button id="buttonMenu">Contato</button></Link>
         </Toolbar>
         
       </div>

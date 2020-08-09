@@ -1,20 +1,19 @@
 import React, { Component } from 'react';
-import Routes from './routes';
 
 
-import './App.css';
+import './Sobre.css';
 
-class App extends Component{
+class Sobre extends Component{
 
   render(){
     return (
       <div className="container" >
 
-        <Routes />
+        <h1>Pagina Sobre</h1>
 
       </div>
     );
   }
 }
 
-export default App;
+export default Sobre;
